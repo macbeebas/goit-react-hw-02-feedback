@@ -1,6 +1,10 @@
-**Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md).
-If You like it this, You can now https://www.buymeacoffee.com/macbeebas Thx :-)
-**
+** Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md) **
+
+Kurs GoIT - Moduł React - HomeWork #02 - komponent "Feedback"
+
+Link: https://macbeebas.github.io/goit-react-hw-02-feedback/
+
+Zbudowane przy pomocy:
 
 # React homework template
 
