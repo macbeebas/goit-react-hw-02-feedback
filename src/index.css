@@ -15,7 +15,6 @@ code {
 }
 
 .container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +23,6 @@ code {
 }
 
 .components-list {
-  outline: 1px solid blueviolet;
   margin: auto;
   list-style-type: none;
   padding: 0;
@@ -34,12 +32,12 @@ code {
 .components-header {
   border-bottom: 2px solid black;
   margin: 0;
-  padding: 10px 0 20px;
+  padding: 10px 20px 20px;
   text-align: center;
   background-color: lightcyan;
 }
 
-.componenets-item {
+.components-item {
   border-bottom: 2px dashed black;
   padding-bottom: 0.5em;
   text-align: center;
@@ -49,4 +47,5 @@ code {
 }
 
 .components-item-box {
+  outline: 1px solid grey;
 }

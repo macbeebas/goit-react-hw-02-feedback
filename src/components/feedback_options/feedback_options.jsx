@@ -1,22 +1,31 @@
 import css from './feedback_options.module.css';
-// import PropTypes from 'prop-types';
 
-export default function Feedback({ feedbacks }) {
+import PropTypes from 'prop-types';
+
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div className={css.feedback}>
-      <p>{'Treść jakaś sobie tutaj'}</p>
-    </div>
+    <>
+      {options.map(option => {
+        return (
+          <li key={option}>
+            <button
+              className={css.btn}
+              type="button"
+              name={option}
+              onClick={() => {
+                onLeaveFeedback(option);
+              }}
+            >
+              {option}
+            </button>
+          </li>
+        );
+      })}
+    </>
   );
-}
+};
 
-// propTypes
-// Feedback.propTypes = {
-//   feedbacks: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.string.isRequired,
-//       type: PropTypes.string.isRequired,
-//       amount: PropTypes.string.isRequired,
-//       currency: PropTypes.string.isRequired,
-//     })
-//   ),
-// };
+FeedbackOptions.propTypes = {
+  options: PropTypes.array,
+  onLeaveFeedback: PropTypes.func,
+};

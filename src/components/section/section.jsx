@@ -1,22 +1,16 @@
 import css from './section.module.css';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-export default function Section({ sections }) {
+export function Section({ title, children }) {
   return (
-    <div className={css.section}>
-      <p>{'Treść jakaś sobie tutaj'}</p>
-    </div>
+    <section className={css.main}>
+      {title && <h2 className={css.title}>{title}</h2>}
+      {children}
+    </section>
   );
 }
 
-// propTypes
-// Feedback.propTypes = {
-//   feedbacks: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.string.isRequired,
-//       type: PropTypes.string.isRequired,
-//       amount: PropTypes.string.isRequired,
-//       currency: PropTypes.string.isRequired,
-//     })
-//   ),
-// };
+Section.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.object,
+};
