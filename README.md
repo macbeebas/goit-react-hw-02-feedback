@@ -1,5 +1,3 @@
-** Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md) **
-
 Kurs GoIT - Moduł React - HomeWork #02 - komponent "Feedback"
 
 Link: https://macbeebas.github.io/goit-react-hw-02-feedback/
@@ -7,6 +5,8 @@ Link: https://macbeebas.github.io/goit-react-hw-02-feedback/
 Zbudowane przy pomocy:
 
 # React homework template
+
+** Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md) **
 
 Ten projekt został stworzony przy pomocy
 [Create React App](https://github.com/facebook/create-react-app). W celu
