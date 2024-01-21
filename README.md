@@ -8,6 +8,9 @@ Zbudowane przy pomocy:
 
 # React homework template
 
+** Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md)
+**
+
 Ten projekt został stworzony przy pomocy
 [Create React App](https://github.com/facebook/create-react-app). W celu
 zapoznania się z konfiguracją dodatkowych opcji
