@@ -1,4 +1,4 @@
-** Read in other languages: [angielski](README.en.md), [rosyjski](README.ru.md) **
+** Read in English: [angielski](README.en.md) **
 
 Kurs GoIT - Moduł React - HomeWork #02 - komponent "Feedback"
 
